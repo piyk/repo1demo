@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 """
+edited 
 Reference analyzer script for NetFlow Python package.
 This file belongs to https://github.com/bitkeks/python-netflow-v9-softflowd.
 
-Copyright 2016-2020 Dominik Pataky <software+pynetflow@dpataky.eu>
-Licensed under MIT License. See LICENSE.
 """
 
 import argparse
@@ -313,9 +312,6 @@ if __name__ == "__main__":
         print("{skipped} connections skipped, because they had less than {skipped_threshold} packets "
               "(this value can be set with the -p flag).".format(skipped=skipped, skipped_threshold=skipped_threshold))
 
-    if not args.verbose:
-        # Exit here if no debugging session was wanted
-        exit(0)
 
     if len(pending) > 0:
         print("\nThere are {pending} first_switched entries left in the pending dict!".format(pending=len(pending)))
