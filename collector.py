@@ -17,6 +17,7 @@ import socket
 import socketserver
 import threading
 import time
+import sys
 from collections import namedtuple
 
 from .ipfix import IPFIXTemplateNotRecognized
