@@ -309,10 +309,6 @@ if __name__ == "__main__":
                           dest_host=con.hostnames.dest, dest=con.dest, size=con.human_size, duration=con.human_duration,
                           packets=con.total_packets))
 
-    if skipped > 0:
-        print("{skipped} connections skipped, because they had less than {skipped_threshold} packets "
-              "(this value can be set with the -p flag).".format(skipped=skipped, skipped_threshold=skipped_threshold))
-
 
     if len(pending) > 0:
         print("\nThere are {pending} first_switched entries left in the pending dict!".format(pending=len(pending)))
