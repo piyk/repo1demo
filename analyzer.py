@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 
 """
-edited 3
+edited 
 Reference analyzer script for NetFlow Python package.
 This file belongs to https://github.com/bitkeks/python-netflow-v9-softflowd.
 
 """
-
 import argparse
 import contextlib
 import functools
