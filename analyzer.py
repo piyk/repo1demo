@@ -338,5 +338,3 @@ if __name__ == "__main__":
                                                     dst_port=dst_port, proto=IP_PROTOCOLS.get(proto, 'UNKNOWN'),
                                                     size=human_size(size), packets=packets))
 
-        if all_noise:
-            print("They were all noise!")
