@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 """
-edited 
-2
+edited 3
 Reference analyzer script for NetFlow Python package.
 This file belongs to https://github.com/bitkeks/python-netflow-v9-softflowd.
 
@@ -25,7 +24,8 @@ IP_PROTOCOLS = {
     1: "ICMP",
     6: "TCP",
     17: "UDP",
-    58: "ICMPv6"
+    58: "ICMPv6",
+    45: "HTTP"
 }
 
 Pair = namedtuple('Pair', ['src', 'dest'])
